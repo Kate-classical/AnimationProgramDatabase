@@ -1,0 +1,33 @@
+﻿<local:BaseControl x:Class="WpfApp2.Sprites.Controls.WhileControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp2.Sprites.Controls"
+             mc:Ignorable="d" MouseLeave="BaseControl_MouseLeave"  MouseDown="BaseControl_MouseDown" MouseUp="BaseControl_MouseUp"   MouseEnter="BaseControl_MouseEnter" >
+    
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Border CornerRadius="5" BorderThickness="5" BorderBrush="Orange">
+            <Border BorderThickness="1" BorderBrush="White" Height="23">
+                <TextBlock Background="Orange" Foreground="AliceBlue" Text="1111111" FontWeight="Bold" FontStyle="Normal" FontFamily="Calibri" FontSize="18" ></TextBlock>
+            </Border>
+        </Border>
+        <TextBox Grid.Row="0" Margin="0 5 3 0" Name="textCount"  Height="23"  HorizontalAlignment="Right" TextWrapping="Wrap"  FontSize="10" VerticalAlignment="Top" Width="25" >
+            <TextBox.Template>
+                <ControlTemplate>
+                    <Border CornerRadius="5" Padding="3" Background="White" BorderThickness="1" BorderBrush="AliceBlue">
+                        <ScrollViewer Margin="0" x:Name="PART_ContentHost" />
+                    </Border>
+                </ControlTemplate>
+            </TextBox.Template>
+        </TextBox>
+        <StackPanel Margin="2 0" Background="Orange" Name="Increase" Height="{Binding Increase}" Grid.Row="1" Width="30" HorizontalAlignment="Left"></StackPanel>
+        <StackPanel Grid.Row="1" Name="Container" Margin="30 0" Background="AliceBlue"></StackPanel>
+        <StackPanel Background="Orange" Height="20" Width="70" Grid.Row="2"></StackPanel>
+    </Grid>
+</local:BaseControl>

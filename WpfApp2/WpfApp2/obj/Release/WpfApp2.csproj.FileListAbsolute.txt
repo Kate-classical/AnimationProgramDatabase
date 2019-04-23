@@ -1,0 +1,9 @@
+E:\CreateAnimation-master\WpfApp2\WpfApp2\obj\Release\WpfApp2.csprojAssemblyReference.cache
+E:\CreateAnimation-master\WpfApp2\WpfApp2\obj\Release\MainWindow.g.cs
+E:\CreateAnimation-master\WpfApp2\WpfApp2\obj\Release\Pages\Functional.g.cs
+E:\CreateAnimation-master\WpfApp2\WpfApp2\obj\Release\Sprites\Controls\BaseUserControl.g.cs
+E:\CreateAnimation-master\WpfApp2\WpfApp2\obj\Release\Sprites\Controls\MotionControl.g.cs
+E:\CreateAnimation-master\WpfApp2\WpfApp2\obj\Release\App.g.cs
+E:\CreateAnimation-master\WpfApp2\WpfApp2\obj\Release\GeneratedInternalTypeHelper.g.cs
+E:\CreateAnimation-master\WpfApp2\WpfApp2\obj\Release\WpfApp2_MarkupCompile.cache
+E:\CreateAnimation-master\WpfApp2\WpfApp2\obj\Release\WpfApp2_MarkupCompile.lref
